@@ -1,5 +1,5 @@
 steps:
 - name: 'gcr.io/cloud-builders/docker'
-  args: ['build', '-t', 'gcr.io/kevin-gdg-workshop/kevin-gdg-workshop:$SHORT_SHA', '.']
+  args: ['build', '-t', 'gcr.io/mikael-gdg-workshop/mikael-gdg-workshop:$SHORT_SHA', '.']
 - name: 'gcr.io/cloud-builders/docker'
-  args: ['push', 'gcr.io/kevin-gdg-workshop/kevin-gdg-workshop:$SHORT_SHA']
+  args: ['push', 'gcr.io/mikael-gdg-workshop/mikael-gdg-workshop:$SHORT_SHA']
